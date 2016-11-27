@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class assignments
+{
+	public static void main(String[] args) {
+		 
+	      	  String S1,S2;//declaring string variables
+			boolean same  ;//declaring boolean variable
+	      	  
+	      	  System.out.println("enter string S1");
+	      	  Scanner sc = new Scanner(System.in);
+	      	  S1=sc.nextLine();                           //taking input from console
+	      	  System.out.println("enter string S2");
+	      	  S2=sc.nextLine();
+	      	  
+	      	  if(S1.equals(S2)){                        //checking string variables
+	      		  same=true;       
+	      		  System.out.println(same);        //printing value of boolean variable same
+	      	  } else{
+	      		  same=false;
+	      		System.out.println(same);
+	        
+	}
+	}
+}
